@@ -18,6 +18,9 @@ ADD default.vcl /etc/varnish/default.vcl
 # Export environment variables
 ENV VARNISH_PORT 80
 
+ENV NODE1 10.0.11.10
+ENV NODE_PORT 4444
+
 # Expose port 80
 EXPOSE 80
 
